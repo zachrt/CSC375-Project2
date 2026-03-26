@@ -28,7 +28,7 @@
 					[
 						0
 					],
-					"name" : "TreeCalculator",
+					"name" : "Calculator",
 					"targetIndexes" : 
 					[
 						0
@@ -40,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Calculator::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Calculator-Debug-f30d471b45355ef88e23.json",
+					"jsonFile" : "target-Calculator-Debug-097e652a88d93d80226a.json",
 					"name" : "Calculator",
 					"projectIndex" : 0
 				}
