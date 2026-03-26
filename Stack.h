@@ -3,8 +3,6 @@
 
 #include <iostream>
 
-
-
 template <typename T>
 class Stack {
 private:
@@ -15,11 +13,11 @@ private:
 public:
     Stack(int size = 100) {
         capacity = size;
-        topIndex = -1;
+        top = -1;
         array = new T[capacity];
     }
 
-    ~CustomStack() {
+    ~Stack() {
         delete[] array;
     }
 

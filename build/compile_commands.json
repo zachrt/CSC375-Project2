@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/compass/Documents/Repos/School/CSC375/Project2/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/Calculator.dir/main.cpp.o -c /Users/compass/Documents/Repos/School/CSC375/Project2/main.cpp",
+  "file": "/Users/compass/Documents/Repos/School/CSC375/Project2/main.cpp",
+  "output": "CMakeFiles/Calculator.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/compass/Documents/Repos/School/CSC375/Project2/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -o CMakeFiles/Calculator.dir/ExpressionTree.cpp.o -c /Users/compass/Documents/Repos/School/CSC375/Project2/ExpressionTree.cpp",
+  "file": "/Users/compass/Documents/Repos/School/CSC375/Project2/ExpressionTree.cpp",
+  "output": "CMakeFiles/Calculator.dir/ExpressionTree.cpp.o"
+}
+]

@@ -1,4 +1,8 @@
+#include <iostream>
 #include "ExpressionTree.h"
+#include "Stack.h"
+
+using namespace std;
 
 // Private
 int ExpressionTree::getPrecedence(char op) {

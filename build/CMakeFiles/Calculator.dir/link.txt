@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Calculator.dir/main.cpp.o CMakeFiles/Calculator.dir/ExpressionTree.cpp.o -o Calculator
