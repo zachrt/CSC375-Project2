@@ -18,6 +18,12 @@ public:
     ExpressionTree();
 
     void buildTreeFromInfix(string expression);
+
+    void displayPrefix(TreeNode* node);
+
+    void displayPostfix(TreeNode* node);
     
     double evaluateTree(TreeNode* node);
+
+    TreeNode* getRoot();
 };

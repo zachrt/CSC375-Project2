@@ -81,6 +81,29 @@ void ExpressionTree::buildTreeFromInfix(string expression) {
     }
 }
 
+void ExpressionTree::displayPrefix(TreeNode* node) {
+    cout << node->value << " ";
+
+    if (node->left != nullptr) {
+        displayPrefix(node->left);
+    }
+    if (node->right != nullptr) {
+        displayPrefix(node->right);
+    }
+}
+
+void ExpressionTree::displayPostfix(TreeNode* node) {
+    
+    if (node->left != nullptr) {
+        displayPostfix(node->left);
+    }
+    if (node->right != nullptr) {
+        displayPostfix(node->right);
+    }
+
+    cout << node->value << " ";
+}
+
 double ExpressionTree::evaluateTree(TreeNode* node) {
         if (node->left == nullptr && node->right == nullptr) {
             return stod(node->value);
@@ -96,3 +119,12 @@ double ExpressionTree::evaluateTree(TreeNode* node) {
 
         return 0;
     }
+
+TreeNode* ExpressionTree::getRoot() {
+    if (root != nullptr) {
+        return root;
+    }
+    else {
+        return nullptr;
+    }
+}
