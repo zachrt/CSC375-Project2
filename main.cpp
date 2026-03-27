@@ -12,10 +12,15 @@ int main() {
     ExpressionTree tree;
     string input;
     while (true) {
-        cout << "Enter an infix expression to evaluate (0-9, +, -, *, -, (, )): ";
+        cout << "Enter an infix expression to evaluate (0-9, +, -, *, -, (, )), or 'Q' to quit: ";
         while (!(cin >> input)) {
             cout << "Invalid input, try again: ";
             cin.clear();
+        }
+
+        if (input == "q" || input == "Q") {
+            cout << "CLOSING TREE CALCULATOR....GOODBYE";
+            return 0;
         }
 
         tree.buildTreeFromInfix(input);
