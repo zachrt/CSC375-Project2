@@ -29,7 +29,7 @@ ExpressionTree::ExpressionTree() {
     root = nullptr;
 };
 
-void ExpressionTree::buildTreeFromInfix(string expression) {
+void ExpressionTree::buildTree(string expression) {
     Stack<TreeNode*> nodeStack(100);
     Stack<char> opStack(100);
 

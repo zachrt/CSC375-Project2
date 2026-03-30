@@ -24,7 +24,7 @@ int main() {
             return 0;
         }
 
-        tree.buildTreeFromInfix(input);
+        tree.buildTree(input);
 
         cout << "Prefix: ";
         tree.displayPrefix(tree.getRoot());

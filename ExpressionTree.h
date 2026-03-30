@@ -17,7 +17,7 @@ private:
 public:
     ExpressionTree();
 
-    void buildTreeFromInfix(string expression);
+    void buildTree(string expression);
 
     void displayPrefix(TreeNode* node);
 
