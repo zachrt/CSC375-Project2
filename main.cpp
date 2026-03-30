@@ -13,9 +13,10 @@ int main() {
     string input;
     while (true) {
         cout << "Enter an infix expression to evaluate (0-9, +, -, *, -, (, )), or 'Q' to quit: ";
-        while (!(cin >> input)) {
-            cout << "Invalid input, try again: ";
-            cin.clear();
+
+        getline(cin, input);
+        if (input.empty()) {
+            continue;
         }
 
         if (input == "q" || input == "Q") {
